@@ -1,0 +1,25 @@
+from ast import If
+
+
+a=str(input("new password"))
+len(a)
+if((len(a))==1):
+    print("at least 7 digit")
+if((len(a))==2):
+    print("at least 7 digit")
+if((len(a))==3):
+    print("at least 7 digit")
+if((len(a))==4):
+    print("at least 7 digit") 
+if((len(a))==5):
+    print("at least 7 digit") 
+if((len(a))==6):
+    print("at least 7 digit")
+ch=a
+if(ch>='A' and ch<='Z'): 
+ (ch>='a' and ch<='z')
+ ch in range(0,9)
+ ch=="#, @, *, &"
+ print("your password is genrated")
+else:
+    print("at leat one upercase or lowercaser or numder or special characters ")
